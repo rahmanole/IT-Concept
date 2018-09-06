@@ -1,0 +1,10 @@
+--->for dowloading a file from git repository
+git clone address
+--->to add mewly created filed
+git add .
+-->to see the added files
+git status
+-->To see status 
+git commit -m "Add a purpose"
+-->Upload newly created files
+git push origin master
