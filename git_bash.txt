@@ -8,3 +8,12 @@ git status
 git commit -m "Add a purpose"
 -->Upload newly created files
 git push origin master
+------------For navigation----------
+-->To see where u r right now
+pwd
+-->For getting back one folde
+cd ..
+-->to go another folder
+cd foldername
+-->To go home home
+cd ~
