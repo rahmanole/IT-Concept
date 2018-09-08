@@ -27,3 +27,9 @@ git checkout [branch namw whcih u want to go]
 git checkout -b [branch name]
 -->create new branch only
 git branch [Branch Name]
+----------Clear git terminal-------
+-->To clear git terminal
+ctrl + l
+or
+clear 
+	
