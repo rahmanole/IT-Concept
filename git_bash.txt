@@ -1,4 +1,5 @@
---->for dowloading a file from git repository
+---------File uploading------
+-->for dowloading a file from git repository
 git clone [address]
 --->to add mewly created filed
 git add .
