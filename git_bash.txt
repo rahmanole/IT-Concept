@@ -18,9 +18,11 @@ cd [foldername]
 -->To go home home
 cd ~
 -----------Branch--------
--->create new branch
-git branch [Branch Name]
 -->To see branches
 git branch
 -->Switch to  another branch
 git checkout [branch namw whcih u want to go]
+-->Simulaneouly Create new branch and move there 
+git checkout -b [branch name]
+-->create new branch only
+git branch [Branch Name]
