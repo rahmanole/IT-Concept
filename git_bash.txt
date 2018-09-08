@@ -1,11 +1,11 @@
 --->for dowloading a file from git repository
-git clone address
+git clone [address]
 --->to add mewly created filed
 git add .
 -->to see the added files
 git status
 -->To see status 
-git commit -m "Add a purpose"
+git commit -m [Add a purpose]
 -->Upload newly created files
 git push origin master
 ------------For navigation----------
@@ -14,6 +14,13 @@ pwd
 -->For getting back one folde
 cd ..
 -->to go another folder
-cd foldername
+cd [foldername]
 -->To go home home
 cd ~
+-----------Branch--------
+-->create new branch
+git branch [Branch Name]
+-->To see branches
+git branch
+-->Switch to  another branch
+git checkout [branch namw whcih u want to go]
