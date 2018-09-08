@@ -14,7 +14,7 @@ git push origin master
 pwd
 -->For getting back one folde
 cd ..
--->to go another folder
+-->To go another folder
 cd [foldername]
 -->To go home home
 cd ~
@@ -25,13 +25,15 @@ git branch
 git checkout [branch namw whcih u want to go]
 -->Simulaneouly Create new branch and move there 
 git checkout -b [branch name]
--->create new branch only
+-->To create new branch only
 git branch [Branch Name]
+-->Delete a branch
 ----------Clear git terminal-------
 -->To clear git terminal
 ctrl + l
 or
 clear 
 -------see file list------
+-->To see file list
 ls
 	
