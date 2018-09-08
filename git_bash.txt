@@ -32,4 +32,6 @@ git branch [Branch Name]
 ctrl + l
 or
 clear 
+-------see file list------
+ls
 	
