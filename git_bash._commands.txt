@@ -1,49 +1,50 @@
 ---------File uploading------
 -->for dowloading a file from git repository
-git clone [address]
+command:git clone [address]
 --->to add mewly created filed
-git add .
+command:git add .
 -->to see the added files
-git status
+command:git status
 -->To see status 
-git commit -m [Add a purpose]
+command:git commit -m [Add a purpose]
 -->Upload newly created files
-git push origin master
+command:git push origin master
 ------------For navigation----------
 -->To see where u r right now
-pwd
+command:pwd
 -->For getting back one folde
-cd ..
+command:cd ..
 -->To go another folder
-cd [foldername]
+command:cd [foldername]
 -->To go home home
-cd ~
+command:cd ~
 -----------Branch--------
 -->To see branches
-git branch
+command:git branch
 -->Switch to  another branch
-git checkout [branch namw whcih u want to go]
+command:git checkout [branch namw whcih u want to go]
 -->Simulaneouly Create new branch and move there 
-git checkout -b [branch name]
+command:git checkout -b [branch name]
 -->To create new branch only
-git branch [Branch Name]
+command:git branch [Branch Name]
 -->Delete a branch
+command:git rm [file name]
 ----------Clear git terminal-------
 -->To clear git terminal
 ctrl + l
-or
-clear 
+command:or
+command:clear 
 -------see file list------
 -->To see file list
-ls
+command:ls
 ------delete a file---------
 -->How to delete a file
-git rm [file name]
+command:git rm [file name]
 -------change repisitory--
 step-1:
-git credential-manager uninstall
+command:git credential-manager uninstall
 step-2:
-git push origin master
+command:git push origin master
 it will ask for username
 
 
