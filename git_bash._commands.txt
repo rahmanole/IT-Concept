@@ -22,6 +22,8 @@ command:cd ~
 -->To see branches
 command:git branch
 -->Switch to  another branch
+
+-------------Create new branch----------
 command:git checkout [branch namw whcih u want to go]
 -->Simulaneouly Create new branch and move there 
 command:git checkout -b [branch name]
@@ -29,17 +31,21 @@ command:git checkout -b [branch name]
 command:git branch [Branch Name]
 -->Delete a branch
 command:git rm [file name]
+
 ----------Clear git terminal-------
 -->To clear git terminal
 ctrl + l
 command:or
 command:clear 
+
 -------see file list------
 -->To see file list
 command:ls
+
 ------delete a file---------
 -->How to delete a file
 command:git rm [file name]
+
 -------change repisitory--
 step-1:
 command:git credential-manager uninstall
@@ -48,4 +54,14 @@ command:git push origin master
 it will ask for username
 
 
-	
+---------------Create new repository-----
+Step-1:Create a new repository in your account
+Step-2:Go to your local directory
+Step-3:Open git bash
+Step-4: command:git init
+Step-5:	command:git add .
+Step-6: command:git commit -m "First commit"
+Step-7: copy remote repository url
+Step-8: command:git remote add origin [remote url]
+Step-9: command:git remote -v (To see current repository)
+Step-10: command:git push origin master	
