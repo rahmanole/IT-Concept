@@ -65,3 +65,20 @@ Step-7: copy remote repository url
 Step-8: command:git remote add origin [remote url]
 Step-9: command:git remote -v (To see current repository)
 Step-10: command:git push origin master	
+
+--------------How to update a Fork---------
+Step-1:Clone link of the repository that you have forked
+Step-2:Go to your local machine's directry Open git bash set upstream 
+commad
+Step-3:Open git bash
+Step-4: command:git init
+Step-5:	command:git add .
+Step-6: command:git commit -m "First commit"
+Step-7: copy remote repository url
+Step-8: command:git remote add origin [remote url]
+Step-9: command:git remote -v (To see current repository)
+Step-10: command:git push origin master	
+
+
+
+
