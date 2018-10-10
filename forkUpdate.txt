@@ -1,0 +1,48 @@
+Syncing a fork
+The Setup
+
+Before you can sync, you need to add a remote that points to the upstream repository. You may have done this when you originally forked.
+
+Tip: Syncing your fork only updates your local copy of the repository; it does not update your repository on GitHub.
+
+$ git remote -v
+# List the current remotes
+origin  https://github.com/user/repo.git (fetch)
+origin  https://github.com/user/repo.git (push)
+
+$ git remote add upstream [url of the forked repository]
+# Set a new remote
+
+$ git remote -v
+# Verify new remote
+origin    https://github.com/user/repo.git (fetch)
+origin    https://github.com/user/repo.git (push)
+upstream  https://github.com/otheruser/repo.git (fetch)
+upstream  https://github.com/otheruser/repo.git (push)
+
+Syncing
+
+
+Fetching from the remote repository will bring in its branches and their respective commits. These are stored in your local repository under special branches.
+
+$ git fetch upstream
+
+We now have the upstream's master branch stored in a local branch, upstream/master
+
+$ git branch -va
+# List all local and remote-tracking branches
+
+Merging
+
+Now that we have fetched the upstream repository, we want to merge its changes into our local branch. This will bring that branch into sync with the upstream, without losing our local changes.
+
+$ git checkout master
+# Check out our local master branch
+Switched to branch 'master'
+
+$ git merge upstream/master
+# Merge upstream's master into our own
+
+If your local branch didn't have any unique commits, git will instead perform a "fast-forward":
+
+$ git merge upstream/master
